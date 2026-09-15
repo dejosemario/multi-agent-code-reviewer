@@ -7,6 +7,10 @@ dependencies = [
     "fastapi==0.115.6",
     "uvicorn[standard]==0.34.0",
     "pydantic-settings==2.7.1",
+    "langchain==1.4.0",
+    "langchain-openai==1.6.2",
+    "langchain-core==1.6.3",
+    "langgraph==1.2.11",
 ]
 
 [project.optional-dependencies]
